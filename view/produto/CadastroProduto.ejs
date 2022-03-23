@@ -1,0 +1,19 @@
+<html>
+<body>
+    <h1>Cadastro de Produto</h1>
+    <form action="/cadastro/produto/salvar" method="POST">
+        <label>Nome:</label>
+        <input name="nome" type="text" /><br/>
+        <label>quantidade:</label>
+        <input type="quantidade" value="text"/>
+        <label>Preço:</label>
+        <input name="preco" type="text" /><br/>
+        <input type="submit" value="cadastrar"/>
+    </form>    
+    <% if(mensagem) { %>
+        <p>
+            <label style="color:red"><%=mensagem%></label>
+        </p>
+        <%}%>
+</body>
+</html>
