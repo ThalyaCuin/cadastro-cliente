@@ -15,7 +15,7 @@ async function connect(){
     global.connection = connection;
 
     return connection;
-
+    //comentario
 }
 
 async function selectusuario(){
